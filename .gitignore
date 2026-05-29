@@ -34,4 +34,4 @@ build/
 
 ### Outros ###
 .env
-*.iml
+.iml
