@@ -36,7 +36,7 @@ deploy com Claude Managed Agents API.
 src/
 └── main/
     └── java/
-        └── com/empresa/researchautomation/
+        └── br/com/diegoaugustofp/research_automation
             ├── application/                  ← casos de uso / serviços de aplicação
             │   ├── document/
             │   │   ├── DocumentIngestionService.java
