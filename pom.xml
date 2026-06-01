@@ -20,8 +20,8 @@
 		<license/>
 	</licenses>
 	<developers>
-        <developer>1.0</developer>
-	</developers>
+        <developer/>
+    </developers>
 	<scm>
 		<connection/>
 		<developerConnection/>
