@@ -11,14 +11,16 @@
 	<groupId>br.com.diegoaugustofp</groupId>
 	<artifactId>research-automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+    <name>research-automation</name>
+	<description>Capta arquivos recebidos via Telegram, registrar metadados, armazenar os documentos, extrair texto,
+    encaminhar o conteúdo para agentes especializados de análise financeira e devolver resumos e classificações para
+        analistas internos.</description>
 	<url/>
 	<licenses>
 		<license/>
 	</licenses>
 	<developers>
-		<developer/>
+        <developer>1.0</developer>
 	</developers>
 	<scm>
 		<connection/>
@@ -48,7 +50,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webmvc</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
