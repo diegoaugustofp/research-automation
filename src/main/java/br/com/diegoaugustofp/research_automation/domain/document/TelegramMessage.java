@@ -1,14 +1,18 @@
-package br.com.diegoaugustofp.research_automation.application.document;
+package br.com.diegoaugustofp.research_automation.domain.document;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import jakarta.persistence.Id;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Entity
 @Table(name = "telegram_messages")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 public class TelegramMessage {
 
@@ -27,7 +31,7 @@ public class TelegramMessage {
     @Column(nullable = false)
     private LocalDateTime eventTimestamp;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "document_id")
     private Document document;
 

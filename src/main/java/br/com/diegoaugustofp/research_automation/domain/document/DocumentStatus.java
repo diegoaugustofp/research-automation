@@ -1,4 +1,4 @@
-package br.com.diegoaugustofp.research_automation.application.document;
+package br.com.diegoaugustofp.research_automation.domain.document;
 
 public enum DocumentStatus {
     RECEIVED,

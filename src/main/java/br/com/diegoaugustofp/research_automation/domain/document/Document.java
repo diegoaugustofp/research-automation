@@ -1,15 +1,17 @@
-package br.com.diegoaugustofp.research_automation.application.document;
+package br.com.diegoaugustofp.research_automation.domain.document;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Entity
 @Table(name = "documents")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 public class Document {
 
